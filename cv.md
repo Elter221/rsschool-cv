@@ -9,3 +9,7 @@ Hi to everyone! I'm 21 years old beginner developer from Minsk trying my best to
 - Email: [dudikvlad@gmail.com](mailto:dudikvlad@gmail.com)
 
 - Discord: Vlad a.k.a Elter(@elter221)
+
+## Me as a Person:
+
+I have good communication skills, I personally think I'm a team player. I appreciate a cooperative atmosphere and being a quick-learner allows me to benfit from it alot. People can rely on me, because one of my main traits is self-responsibility, and I can't stand when I didn't do what I've been trusted with.
