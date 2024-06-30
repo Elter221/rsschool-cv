@@ -29,3 +29,17 @@ I have good communication skills, I personally think I'm a team player. I apprec
 - C (basic)
 
 - English (B2) / German (B1)
+
+## Code example:
+
+*Base Codewars task example*
+
+```js
+function multiply(a, b){
+    a * b
+} 
+```
+
+## Project example:
+
+Mountaineering Club: [SQL GitHub Link](https://github.com/Elter221/SQL_DDL.git)
