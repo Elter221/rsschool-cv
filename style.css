@@ -1,23 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 0;
     font-size: 100%;
     vertical-align: baseline;
-    font-family: Tenor Sans;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 html {
     scroll-behavior: smooth
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #16176d;
 }
 
 header {
@@ -29,43 +20,198 @@ header {
     background-repeat: no-repeat;
 }
 
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 .nav {
+    list-style-type: none;
+    width: 100%;
+    max-width: 1170px;
     display: flex;
     justify-content: space-between;
     padding: 15px;
     text-transform: uppercase;
-    transition: 0.1s;
 }
 
 .nav a {
+    font-size: 20px;
     color: #fffa89;
 }
+
 
 a {
     text-decoration: none;
 }
 
 a:hover {
-    color: #d40040;
+    color: #c00808;
 }
 
-main {
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 100%;
     display: flex;
-    height: 80vh;
+    background-color: #070707;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .left-column {
-    width: 35%;
+    width: 40%; 
 }
 
 .right-column {
-    width: 65%;
+    width: 60%;
 }
 
 .photo {
     display: block;
-    margin: auto;
-    border-radius: 50%;
-    width: 80%;
-    height: px;
-  }
+    padding: 15px;
+    border-radius: 100%;
+    width: 70%;
+    height: auto;
+}
+
+.name-style {
+    width: 100%;
+}
+
+#name {
+    font-weight: 150;
+    font-size: 65px;
+    margin-top: 95px;
+    padding: 20px;
+    text-transform: uppercase;
+    display: block;
+    color: #eeeaeac9;
+    word-break: break-all;
+}
+
+#last-name {
+    font-weight: 700;
+    color: #c00808;
+    word-break: break-all;
+}
+
+.right-sections {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.right-headers {
+    padding: inherit;
+    font-weight: 150;
+    font-size: 40px;
+    color: #fff;
+    text-align: right;
+}
+
+.separator_line {
+    width: 100%;
+    height: 2px;
+    margin-bottom: inherit;
+    background-color: #801111;
+}
+
+h4 {
+    font-weight: 150;
+    font-size: 24px;
+}
+
+#desc_about {
+    margin-bottom: inherit;
+    text-align: justify;
+}
+
+h3 {
+    font-weight: 150;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+}
+
+.right_lists {
+    margin: 0 0 20px 0;
+    padding: 10px 0 0 30px;
+}
+
+.right_item {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#skills {
+    width: 100%;
+}
+
+#projects {
+    width: 100%;
+}
+
+
+#projects img {
+    width: 200px;
+    height: 200px;
+}
+
+figure img {
+    vertical-align: middle;
+    border: 5px solid #8b0e0e;
+}
+
+figcaption {
+    width: 200px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-style: oblique;
+    letter-spacing: 0,02em;
+    text-align: center;
+    color: #fff;
+    background-color: #8b0e0e;
+
+}
+
+.education {
+    width: 100%;
+}
+
+.left-section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.left-headers {
+    padding: 20px;
+    font-weight: 150;
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+}
+
+.edu-title {
+    margin-top: 20px;
+    font-weight: 150;
+    font-size: 25px;
+    color: inherit;
+    text-align: inherit;
+}
+
+.specialization_title{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 22px;
+    color: inherit;
+    text-align: inherit;
+}
