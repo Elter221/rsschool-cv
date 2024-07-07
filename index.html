@@ -3,8 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <title>My CV</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <section class="left-column column">
+                <img class="photo" src="./img/me.jpg" alt="My photo">
+                <div class="left-section"> 
+                    <div id="education">
+                        <h2 class="left-headers">Education</h2>
+                        <div class="separator_line"></div>
+                        <div class="edu-title">
+                            Belarusian State University of Informatics and Radioelectronics
+                        </div>
+                        <div class="specialization_title">
+                            Specialization: Micro- and nanosystem technology
+                        </div>
+                    </div> 
+                </div>
+                <div class="left-section">
+                    <div id="contacts">
+                        <h2 class="left-headers">Contacts</h2>
+                        <div class="separator_line"></div>
+                        <ul class="lists">
+                            <li class="list_item">Minsk, Belarus</li>
+                            <li class="list_item">
+                                <a href="mailto:dudikvlad@gmail.com">dudikvlad@gmail.com</a>
+                            </li>
+                            <li class="list_item">Discord: Vlad a.k.a Elter(@elter221)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="right-column column">
+                <div class="name-style">
+                    <h1 id="name">
+                        Dudik
+                        <br>
+                        <span id="last-name">Vladislav</span>
+                    </h1>
+                </div>
+                <div class="right-sections" id="about">
+                    <h2 class="right-headers">About me</h2>
+                    <div class="separator_line"></div>
+                    <h4 id="desc_about">Hi to everyone! I'm 21 years old beginner developer from Minsk trying my best to study new things in IT-sphere.
+                        I have good communication skills, I personally think I'm a team player. I appreciate a cooperative atmosphere and being a quick-learner allows me to benefit from it a lot.
+                        People can rely on me, because one of my main traits is self-responsibility, and I can't stand when I didn't do what I've been trusted with.
+                    </h4>
+                    <article>
+                        <h3>My personal traits:</h3>
+                        <ul class="lists">
+                            <li class="list_item">Kind</li>
+                            <li class="list_item">Generous</li>
+                            <li class="list_item">Self-responsible</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="right-sections" id="skills">
+                    <h2 class="right-headers">Skills</h2>
+                    <div class="separator_line"></div>
+                    <ul class="lists">
+                        <li class="list_item">C# (OOP)</li>
+                        <li class="list_item">SQL (basic)</li>
+                        <li class="list_item">C (basic)</li>
+                        <li class="list_item">Python(basic)</li>
+                        <li class="list_item">English B2</li>
+                    </ul>
+                </div>
+                <div class="right-sections" id="projects">
+                    <h2 class="right-headers">Projects</h2>
+                    <div class="separator_line"></div>
+                    <h3>Code example:</h3>
+                    <pre>
+                        <code class="language-javascript">function createPhoneNumber(numbers){
+                                let str = numbers.join('');
+                                return `(${str.slice(0,3)}) ${str.slice(3,6)}-${str.slice(6,10)}`;
+                      }</code>
+                    </pre>
+                    <h3>Mountaineering Club DB:</h3>
+                    <a title="Click to check" href="https://github.com/Elter221/DB-Modeling-and-Normalization-.git" target="_blank">
+                        <figure>
+                            <img src="./img/Mountaineering_Club.jpg" alt="Mountaineering Club">
+                            <figcaption>Mountains of Switzerland</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a title="My github account" href="https://github.com/elter221">
+              <img
+                class="git-icon"
+                src="./img/github-mark-white.svg"
+                alt="My github account"
+              />
+            </a>
+            <div class="rs-logo">
+              <a title="RS school" href="https://rs.school/courses/javascript">
+                <img
+                  class="rs-icon"
+                  src="./img/rsschool-logo.svg"
+                  alt="JavaScript/Front-end course"
+                />
+              </a>
+            </div>
+          <time class="year" datetime="2024">2024</time>
+        </div>
+    </footer>
 </body>
 </html>
