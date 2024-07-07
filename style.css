@@ -48,6 +48,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 a:hover {
@@ -80,13 +81,14 @@ a:hover {
 .photo {
     display: block;
     padding: 15px;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 70%;
     height: auto;
 }
 
 .name-style {
     width: 100%;
+    word-break: break-all;
 }
 
 #name {
@@ -95,18 +97,17 @@ a:hover {
     margin-top: 95px;
     padding: 20px;
     text-transform: uppercase;
-    display: block;
+    display: block; 
     color: #eeeaeac9;
-    word-break: break-all;
 }
 
 #last-name {
     font-weight: 700;
     color: #c00808;
-    word-break: break-all;
 }
 
 .right-sections {
+    width: 100%;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -142,22 +143,14 @@ h3 {
     margin: 10px 0 10px 0;
 }
 
-.right_lists {
+.lists {
     margin: 0 0 20px 0;
     padding: 10px 0 0 30px;
 }
 
-.right_item {
+.list_item {
     font-size: 22px;
     margin-top: 10px;
-}
-
-#skills {
-    width: 100%;
-}
-
-#projects {
-    width: 100%;
 }
 
 
@@ -183,11 +176,8 @@ figcaption {
 
 }
 
-.education {
-    width: 100%;
-}
-
 .left-section {
+    width: 100%;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -214,4 +204,49 @@ figcaption {
     font-size: 22px;
     color: inherit;
     text-align: inherit;
+}
+
+.contacts-list {
+    color: #fff;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+.footer .container {
+    min-height: 40%;
+    max-width: 95%;
+    justify-content: space-between;
+}
+
+.git-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.rs-logo {
+    width: 90px;
+    height: auto;
+    border-radius: 10%;
+    background-color: #fff;
+}
+
+.rs-icon {
+    width: 100%;
+    height: auto;
+}
+
+.year {
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 30px;
 }
